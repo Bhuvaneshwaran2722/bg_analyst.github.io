@@ -3,55 +3,74 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>BG Analyst</title>
+  <title>BG Analyst - Bhuvaneshwaran G</title>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body { font-family: 'Roboto', sans-serif; background: #f4f4f4; color: #333; }
-    header { background: #0077cc; color: #fff; padding: 1rem 2rem; text-align: center; }
-    nav a { color: #fff; margin: 0 1rem; text-decoration: none; }
+    header { background: #0077cc; color: #fff; padding: 1.5rem 2rem; text-align: center; }
+    nav a { color: #fff; margin: 0 1rem; text-decoration: none; font-weight: bold; }
     section { padding: 2rem; max-width: 900px; margin: auto; }
     h1, h2 { margin-bottom: 1rem; }
-    .project { background: #fff; padding: 1rem; margin-bottom: 1rem; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
-    footer { background: #222; color: #aaa; text-align: center; padding: 1rem; margin-top: 2rem; }
+    .project, .bio, .contact { background: #fff; padding: 1.5rem; margin-bottom: 1.5rem; border-radius: 10px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
+    .project h3 { color: #0077cc; }
+    .btn { display: inline-block; margin-top: 1rem; padding: 0.6rem 1.2rem; background: #0077cc; color: #fff; text-decoration: none; border-radius: 6px; }
+    .btn:hover { background: #005fa3; }
+    footer { background: #222; color: #aaa; text-align: center; padding: 1.2rem; margin-top: 3rem; }
+    @media (max-width: 600px) {
+      nav a { display: block; margin: 0.5rem 0; }
+    }
   </style>
 </head>
 <body>
   <header>
-    <h1>BG Analyst</h1>
+    <h1>Bhuvaneshwaran G</h1>
+    <p>Data & Technical Analyst | Portfolio</p>
     <nav>
       <a href="#about">About</a>
       <a href="#projects">Projects</a>
       <a href="#contact">Contact</a>
+      <a href="#resume">Resume</a>
     </nav>
   </header>
 
-  <section id="about">
+  <section id="about" class="bio">
     <h2>About Me</h2>
-    <p>I am a passionate data analyst skilled in Excel, SQL, and Power BI. I focus on visual storytelling and insights-driven dashboards to solve real-world problems.</p>
+    <p>Hi, I'm <strong>Bhuvaneshwaran</strong>, a passionate aspiring <strong>Data & Technical Analyst</strong> from Tamil Nadu, India. I specialize in turning raw data into insightful visual stories using <strong>Power BI, SQL, Excel</strong>, and <strong>Python</strong>.</p>
+    <p>I’ve built dashboards on real-world topics like <em>cryptocurrency market trends, healthcare diagnostics, and reservation analysis</em>. My goal is to use data to create meaningful impact in business and society.</p>
+    <p>Currently open to entry-level or junior data analyst opportunities, especially roles that value curiosity, creativity, and clear communication.</p>
   </section>
 
   <section id="projects">
     <h2>Projects</h2>
     <div class="project">
-      <h3>Impact of India in Global Crypto Market</h3>
-      <p>A predictive Power BI dashboard analyzing India's influence in global crypto trends using data from CoinMarketCap and trading volume metrics.</p>
+      <h3>Bitcoin Market Prediction</h3>
+      <p>Developed a Power BI dashboard using Excel and Python to visualize Bitcoin price trends, volume metrics, and predictive models. Helps understand volatility and future price movement.</p>
     </div>
     <div class="project">
-      <h3>Mobile Impact on Teens Growth</h3>
-      <p>A creative data visualization project exploring mobile usage patterns and their developmental impact on teenagers in urban India.</p>
+      <h3>AI Job Market Trends</h3>
+      <p>Analyzed global job listings using SQL and Power BI to identify demand for AI-related skills. Used web scraping and public datasets to show emerging AI career patterns.</p>
     </div>
-    <!-- Add more projects here -->
   </section>
 
-  <section id="contact">
+  <section id="contact" class="contact">
     <h2>Contact</h2>
-    <p>Email: your.email@example.com</p>
-    <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></p>
+    <p><strong>Email:</strong> <a href="mailto:bhuvaneshwaran2722@gmail.com">bhuvaneshwaran2722@gmail.com</a></p>
+    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/bhuvaneshwaran-g-9292b024b" target="_blank">linkedin.com/in/bhuvaneshwaran-g-9292b024b</a></p>
+    <p><strong>GitHub:</strong> <a href="https://github.com/Bhuvaneshwaran2722/bg_analyst.github.io" target="_blank">github.com/Bhuvaneshwaran2722</a></p>
+  </section>
+
+  <section id="resume">
+    <h2>Resume</h2>
+    <p>You can download my resume below:</p>
+    <a href="BHUVANESHWARAN_G.pdf" class="btn" download>📄 Download Resume</a>
   </section>
 
   <footer>
-    <p>&copy; 2025 BG Analyst. All rights reserved.</p>
+    <p>&copy; 2025 Bhuvaneshwaran G. All rights reserved.</p>
   </footer>
 </body>
 </html>
+
+     
+   
